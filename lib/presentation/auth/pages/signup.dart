@@ -46,15 +46,6 @@ class SignupPage extends StatelessWidget {
     }
 
     Widget _fullNameField() {
-      return TextField(
-        decoration: InputDecoration(
-          filled: true,
-          fillColor: Colors.transparent,
-          contentPadding: EdgeInsets.all(15),
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(30)
-          ),
-        ),
-      );
+      return TextField( );
     }
 }
